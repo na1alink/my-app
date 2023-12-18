@@ -1,0 +1,106 @@
+.App {
+	max-width: 1200px;
+	padding: 0 15px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.App-header {
+	width: 100%;
+	padding: 10px;
+	color: #000;
+	text-align: center;
+}
+
+.App-title {
+	padding: 50px;
+	font-size: 50px;
+}
+
+.Checklist {
+	padding: 30px;
+}
+
+.Checklist-title {
+	margin: 0;
+	margin-bottom: 20px;
+	font-size: 40px;
+}
+
+.Checklist-top {
+	margin-bottom: 15px;
+}
+
+.Checklist-input {
+	height: 30px;
+	padding: 5px;
+	margin-right: 10px;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+
+.Checklist-btn {
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	border: none;
+	border-radius: 50%;
+
+	padding: 0;
+	border: none;
+	cursor: pointer;
+}
+
+.Checklist-btn:hover {
+	background-color: #fff;
+	color: #000;
+	outline: 1px solid #000;
+}
+
+.Checlist-list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.Checlist-Item {
+	display: flex;
+	align-items: center;
+}
+
+.Item-left {
+	margin-right: auto;
+}
+
+.Item-checkbox {
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.Item__text {
+	margin: 0;
+	margin-right: 10px;
+	font-size: 50px;
+}
+
+.Item-btn-edit {
+	background-color: #fff;
+	color: #000;
+	margin-right: 15px;
+	width: 20px;
+	height: 20px;
+	background: url('./img/edit.svg') center no-repeat;
+	background-size: 25px;
+}
+
+.Item-btn-del {
+	background-color: #fff;
+	color: #000;
+
+	width: 20px;
+	height: 20px;
+	background: url('./img/del.svg') center no-repeat;
+	background-size: 20px;
+}
